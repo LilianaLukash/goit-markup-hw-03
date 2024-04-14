@@ -224,21 +224,48 @@ body {
    3. What are we doing
 =============================================
 */
+.main-opportunities-section {
+  padding-bottom: 120px;
+}
 
+.opportunities-title {
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
 /* 
 =============================================
    4. Our Team
 =============================================
 */
 .main-section-team {
-  background-color: #f4f4fd;
+  background: var(--cloud);
+  padding: 120px 0;
+}
+
+.team-title {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+line-height: 111%;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: var(--navy-blue);
 }
 
 .card {
-  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  background: var(--white);
+  text-align: center;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.card-name {
+.card h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -246,12 +273,15 @@ body {
   color: var(--navy-blue);
 }
 
-.card-text {
+.card p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
+
+.card-text {
+  padding: 32px 16px;}
 
 /* 
 =============================================
@@ -290,14 +320,22 @@ body {
 */
 .logo-studio-footer {
   color: var(--cloud, #f4f4fd);
+  padding-bottom: 24px;
 }
 
 .footer-box {
   background: var(--navy-blue);
+  padding: 120px 0;
+  
 }
 
 .paragraf-box {
-  line-height: 1.5;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--cloud);
+  width: 264px;
+  margin-top: 16px;
 }
